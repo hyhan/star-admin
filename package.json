@@ -1,0 +1,31 @@
+{
+  "name": "star-admin",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^8.6.0",
+    "ant-design-vue": "^3.2.7",
+    "vue": "^3.2.37",
+    "vue-i18n": "^9.1.10",
+    "vue-router": "^4.0.16"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.25.1",
+    "@iconify/icons-carbon": "^1.2.6",
+    "@types/node": "^17.0.42",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "eslint": "^8.17.0",
+    "typescript": "^4.7.3",
+    "unplugin-auto-import": "^0.8.8",
+    "unplugin-vue-components": "^0.19.6",
+    "vite": "^2.9.9",
+    "vite-plugin-pages": "^0.24.0",
+    "vite-plugin-vue-layouts": "^0.6.0",
+    "vue-tsc": "^0.34.17"
+  }
+}
